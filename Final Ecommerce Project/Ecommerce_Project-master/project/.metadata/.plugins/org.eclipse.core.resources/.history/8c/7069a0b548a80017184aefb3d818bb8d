@@ -1,0 +1,22 @@
+/**
+ * 
+ */
+$(document).ready(function(){
+	
+	$("#regform").validate({
+		rules:{
+			name:{
+				required:true,
+				minlength: 2
+			}
+		},
+	messages:{
+		name:{
+			required: "Invalid",
+			minlength: "5"
+		}
+	}
+		
+		
+	});
+})

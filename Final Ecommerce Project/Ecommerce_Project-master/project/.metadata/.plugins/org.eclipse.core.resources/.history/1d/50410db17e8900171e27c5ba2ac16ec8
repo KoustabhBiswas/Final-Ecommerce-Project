@@ -1,0 +1,11 @@
+package com.ecommerce2.ecommercebackend.model;
+
+public class AddtoCart {
+	private int id;
+	private Product product;
+	private int orderQty;
+	private float totalPrice;
+	private Cart cart;
+	
+
+}

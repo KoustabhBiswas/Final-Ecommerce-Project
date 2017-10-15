@@ -1,0 +1,9 @@
+package com.ecommerce2.ecommercebackend.Dao;
+
+public interface OrderDao {
+	boolean insert(OrderDao order);
+	boolean update(OrderDao order);
+	boolean delete(OrderDao order);
+	OrderDao getByUser(int id);
+
+}

@@ -1,0 +1,294 @@
+
+Jul 06, 2017 14:48:26.43 NEW SESSION
+Jul 06, 2017 14:48:26.43 [Child 120] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Jul 06, 2017 14:48:26.43 [Child 120] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Jul 06, 2017 14:59:21.75 [Child 2576] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Jul 06, 2017 15:08:20.73 1499333900736	addons.update-checker	WARN	Update manifest for aushelper@mozilla.org did not contain an updates property
+Jul 06, 2017 15:08:20.81 1499333900810	addons.update-checker	WARN	Update manifest for firefox@getpocket.com did not contain an updates property
+Jul 06, 2017 15:08:20.84 1499333900831	addons.update-checker	WARN	Update manifest for webcompat@mozilla.org did not contain an updates property
+Jul 06, 2017 15:08:21.56 1499333901561	addons.update-checker	WARN	Update manifest for {972ce4c6-7e08-4474-a285-3208198ce6fd} did not contain an updates property
+Jul 06, 2017 15:08:21.96 1499333901958	addons.update-checker	WARN	Update manifest for e10srollout@mozilla.org did not contain an updates property
+Jul 06, 2017 15:10:17.97 *************************
+Jul 06, 2017 15:10:17.97 A coding exception was thrown and uncaught in a Task.
+Jul 06, 2017 15:10:17.97 
+Jul 06, 2017 15:10:17.97 Full message: TypeError: NetworkError when attempting to fetch resource.
+Jul 06, 2017 15:10:17.97 Full stack: 
+Jul 06, 2017 15:10:17.97 *************************
+
+Jul 06, 2017 20:46:11.43 NEW SESSION
+Jul 06, 2017 20:46:11.43 [Child 6364] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Jul 06, 2017 20:46:11.43 [Child 6364] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Jul 06, 2017 20:47:13.76 [Child 2968] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+Jul 14, 2017 23:53:15.53 NEW SESSION
+Jul 14, 2017 23:53:15.53 1500056595508	addons.update-checker	WARN	Update manifest for aushelper@mozilla.org did not contain an updates property
+Jul 14, 2017 23:53:15.56 1500056595563	addons.update-checker	WARN	Update manifest for e10srollout@mozilla.org did not contain an updates property
+Jul 14, 2017 23:53:15.60 1500056595601	addons.update-checker	WARN	Update manifest for webcompat@mozilla.org did not contain an updates property
+Jul 14, 2017 23:53:15.64 1500056595643	addons.update-checker	WARN	Update manifest for firefox@getpocket.com did not contain an updates property
+Jul 14, 2017 23:53:15.68 1500056595679	addons.update-checker	WARN	Update manifest for {972ce4c6-7e08-4474-a285-3208198ce6fd} did not contain an updates property
+Jul 14, 2017 23:53:15.71 1500056595706	addons.update-checker	WARN	Update manifest for followonsearch@mozilla.com did not contain an updates property
+
+Jul 22, 2017 22:27:57.08 NEW SESSION
+Jul 22, 2017 22:27:57.08 1500742677069	addons.update-checker	WARN	Update manifest for aushelper@mozilla.org did not contain an updates property
+Jul 22, 2017 22:27:57.10 1500742677089	addons.update-checker	WARN	Update manifest for firefox@getpocket.com did not contain an updates property
+Jul 22, 2017 22:27:57.35 1500742677337	addons.update-checker	WARN	Update manifest for e10srollout@mozilla.org did not contain an updates property
+Jul 22, 2017 22:27:57.48 1500742677468	addons.update-checker	WARN	Update manifest for {972ce4c6-7e08-4474-a285-3208198ce6fd} did not contain an updates property
+Jul 22, 2017 22:27:57.49 1500742677483	addons.update-checker	WARN	Update manifest for webcompat@mozilla.org did not contain an updates property
+Jul 23, 2017 24:27:54.17 [Child 18580] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Jul 23, 2017 24:27:54.19 [Child 18580] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Jul 23, 2017 01:04:42.36 [Child 33520] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Jul 23, 2017 01:04:42.38 [Child 33520] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+Jul 23, 2017 13:17:38.15 NEW SESSION
+Jul 23, 2017 13:17:38.15 
+Jul 23, 2017 13:17:38.18 ###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+Jul 23, 2017 13:17:38.18 
+Jul 23, 2017 13:17:38.18 
+Jul 23, 2017 13:17:38.18 ###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+Jul 23, 2017 13:17:38.18 
+Jul 23, 2017 13:17:38.18 
+Jul 23, 2017 13:17:38.19 ###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+Jul 23, 2017 13:17:38.19 
+Jul 23, 2017 13:17:44.68 console.error: 
+Jul 23, 2017 13:17:44.83   Message: Error: SessionFile is closed
+Jul 23, 2017 13:17:44.83   Stack:
+Jul 23, 2017 13:17:44.83     write@resource://app/modules/sessionstore/SessionFile.jsm:315:29
+Jul 23, 2017 13:17:44.83 write@resource://app/modules/sessionstore/SessionFile.jsm:76:12
+Jul 23, 2017 13:17:44.83 _writeState@resource://app/modules/sessionstore/SessionSaver.jsm:265:12
+Jul 23, 2017 13:17:44.83 _saveState@resource://app/modules/sessionstore/SessionSaver.jsm:236:12
+Jul 23, 2017 13:17:44.83 _saveStateAsync@resource://app/modules/sessionstore/SessionSaver.jsm:249:5
+Jul 23, 2017 13:17:44.83 runDelayed/this._timeoutID<@resource://app/modules/sessionstore/SessionSaver.jsm:147:40
+Jul 23, 2017 13:17:44.83 setTimeout_timer@resource://gre/modules/Timer.jsm:30:5
+Jul 23, 2017 13:17:44.84 observe@resource://gre/modules/AsyncShutdown.jsm:550:9
+Jul 23, 2017 13:17:44.84 addBlocker/moduleBlocker/<@resource://gre/components/nsAsyncShutdown.js:157:15
+Jul 23, 2017 13:17:44.84 Promise@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:390:5
+Jul 23, 2017 13:17:44.84 moduleBlocker@resource://gre/components/nsAsyncShutdown.js:153:29
+Jul 23, 2017 13:17:44.84 trigger@resource://gre/modules/AsyncShutdown.jsm:719:23
+Jul 23, 2017 13:17:44.84 _wait@resource://gre/modules/AsyncShutdown.jsm:866:7
+Jul 23, 2017 13:17:44.84 wait@resource://gre/modules/AsyncShutdown.jsm:850:28
+Jul 23, 2017 13:17:44.84 observe@resource://gre/modules/AsyncShutdown.jsm:533:17
+Jul 23, 2017 13:17:44.84 
+
+Jul 24, 2017 24:19:46.46 NEW SESSION
+Jul 24, 2017 24:19:46.46 1500835786440	addons.update-checker	WARN	Update manifest for aushelper@mozilla.org did not contain an updates property
+Jul 24, 2017 24:19:46.48 1500835786466	addons.update-checker	WARN	Update manifest for {972ce4c6-7e08-4474-a285-3208198ce6fd} did not contain an updates property
+Jul 24, 2017 24:19:46.77 1500835786769	addons.update-checker	WARN	Update manifest for followonsearch@mozilla.com did not contain an updates property
+Jul 24, 2017 24:19:46.84 1500835786839	addons.update-checker	WARN	Update manifest for firefox@getpocket.com did not contain an updates property
+Jul 24, 2017 24:19:46.89 1500835786889	addons.update-checker	WARN	Update manifest for webcompat@mozilla.org did not contain an updates property
+Jul 24, 2017 24:19:47.71 1500835787704	addons.update-checker	WARN	Update manifest for e10srollout@mozilla.org did not contain an updates property
+Jul 24, 2017 24:29:09.84 [Child 5288] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Jul 24, 2017 24:29:09.88 [Child 5288] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Jul 24, 2017 24:44:32.87 IPDL protocol error: Handler returned error code!
+Jul 24, 2017 24:44:32.87 
+Jul 24, 2017 24:44:32.87 ###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+Jul 24, 2017 24:44:32.87 
+Jul 24, 2017 24:44:33.22 [Child 6736] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+Jul 24, 2017 15:18:05.23 NEW SESSION
+Jul 24, 2017 15:18:05.23 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 24, 2017 15:18:09.42 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 24, 2017 15:18:09.45 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 24, 2017 15:18:10.25 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 24, 2017 15:18:10.29 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 24, 2017 15:18:10.39 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 24, 2017 15:18:10.69 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 24, 2017 15:18:10.86 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 24, 2017 15:18:11.03 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 24, 2017 15:18:11.12 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 24, 2017 15:18:16.65 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 24, 2017 15:18:17.95 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 24, 2017 15:18:18.12 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 24, 2017 15:18:18.23 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 24, 2017 15:18:18.27 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 24, 2017 15:18:18.59 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 24, 2017 15:18:18.98 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 24, 2017 15:18:19.51 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 24, 2017 15:18:19.72 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 24, 2017 15:18:24.30 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 24, 2017 15:18:24.48 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 24, 2017 15:18:24.87 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 24, 2017 15:18:26.64 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 24, 2017 15:18:26.84 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 24, 2017 15:18:26.85 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 24, 2017 15:18:26.92 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 24, 2017 15:18:27.57 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 24, 2017 15:18:27.77 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 24, 2017 15:18:28.45 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 24, 2017 15:18:28.46 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 24, 2017 15:18:28.56 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 24, 2017 15:18:28.72 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 24, 2017 15:18:28.73 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 24, 2017 15:18:28.81 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 24, 2017 15:18:29.36 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 24, 2017 15:18:29.72 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 24, 2017 15:18:29.75 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 24, 2017 15:18:29.85 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 24, 2017 15:18:29.93 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 24, 2017 15:18:30.08 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 24, 2017 15:18:30.82 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 24, 2017 15:18:30.86 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 24, 2017 15:18:31.80 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 24, 2017 15:18:34.01 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 24, 2017 15:18:35.11 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 24, 2017 15:18:36.95 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 24, 2017 15:18:36.98 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 24, 2017 15:18:38.03 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 24, 2017 15:18:38.93 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 24, 2017 15:18:39.38 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 24, 2017 15:18:40.11 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 24, 2017 15:18:40.22 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 24, 2017 15:18:40.26 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 24, 2017 15:18:41.40 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 24, 2017 15:18:42.21 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 24, 2017 15:18:42.24 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 24, 2017 15:18:42.77 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+
+Jul 24, 2017 22:35:06.33 NEW SESSION
+Jul 24, 2017 22:35:06.33 [Child 2260] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Jul 24, 2017 22:35:06.35 [Child 2260] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+Jul 28, 2017 17:48:19.54 NEW SESSION
+Jul 28, 2017 17:48:19.54 [Child 11480] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Jul 28, 2017 17:48:19.56 [Child 11480] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+Aug 01, 2017 17:54:20.35 NEW SESSION
+Aug 01, 2017 17:54:20.35 [Child 5696] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Aug 01, 2017 17:54:20.49 
+Aug 01, 2017 17:54:20.49 ###!!! [Parent][MessageChannel] Error: (msgtype=0x2C008F,name=PBrowser::Msg_UpdateNativeWindowHandle) Closed channel: cannot send/recv
+Aug 01, 2017 17:54:20.49 
+Aug 01, 2017 17:54:20.49 
+Aug 01, 2017 17:54:20.49 ###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0082,name=PBrowser::Msg_Destroy) Closed channel: cannot send/recv
+Aug 01, 2017 17:54:20.49 
+Aug 01, 2017 17:54:20.49 
+Aug 01, 2017 17:54:20.49 ###!!! [Parent][MessageChannel] Error: (msgtype=0x2C008F,name=PBrowser::Msg_UpdateNativeWindowHandle) Closed channel: cannot send/recv
+Aug 01, 2017 17:54:20.49 
+Aug 01, 2017 17:54:20.49 
+Aug 01, 2017 17:54:20.49 ###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0082,name=PBrowser::Msg_Destroy) Closed channel: cannot send/recv
+Aug 01, 2017 17:54:20.49 
+Aug 01, 2017 17:54:20.49 
+Aug 01, 2017 17:54:20.49 ###!!! [Parent][MessageChannel] Error: (msgtype=0x2C008F,name=PBrowser::Msg_UpdateNativeWindowHandle) Closed channel: cannot send/recv
+Aug 01, 2017 17:54:20.49 
+Aug 01, 2017 17:54:20.49 
+Aug 01, 2017 17:54:20.49 ###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0082,name=PBrowser::Msg_Destroy) Closed channel: cannot send/recv
+Aug 01, 2017 17:54:20.49 
+Aug 01, 2017 17:54:20.49 
+Aug 01, 2017 17:54:20.49 ###!!! [Parent][MessageChannel] Error: (msgtype=0x2C008F,name=PBrowser::Msg_UpdateNativeWindowHandle) Closed channel: cannot send/recv
+Aug 01, 2017 17:54:20.49 
+Aug 01, 2017 17:54:20.49 
+Aug 01, 2017 17:54:20.49 ###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0082,name=PBrowser::Msg_Destroy) Closed channel: cannot send/recv
+Aug 01, 2017 17:54:20.49 
+Aug 01, 2017 17:54:20.49 
+Aug 01, 2017 17:54:20.49 ###!!! [Parent][MessageChannel] Error: (msgtype=0x2C008F,name=PBrowser::Msg_UpdateNativeWindowHandle) Closed channel: cannot send/recv
+Aug 01, 2017 17:54:20.50 
+Aug 01, 2017 17:54:20.50 
+Aug 01, 2017 17:54:20.50 ###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0082,name=PBrowser::Msg_Destroy) Closed channel: cannot send/recv
+Aug 01, 2017 17:54:20.50 
+Aug 01, 2017 17:54:20.50 
+Aug 01, 2017 17:54:20.50 ###!!! [Parent][MessageChannel] Error: (msgtype=0x2C008F,name=PBrowser::Msg_UpdateNativeWindowHandle) Closed channel: cannot send/recv
+Aug 01, 2017 17:54:20.50 
+Aug 01, 2017 17:54:20.50 
+Aug 01, 2017 17:54:20.50 ###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0082,name=PBrowser::Msg_Destroy) Closed channel: cannot send/recv
+Aug 01, 2017 17:54:20.50 
+Aug 01, 2017 17:54:20.50 
+Aug 01, 2017 17:54:20.50 ###!!! [Parent][MessageChannel] Error: (msgtype=0x2C008F,name=PBrowser::Msg_UpdateNativeWindowHandle) Closed channel: cannot send/recv
+Aug 01, 2017 17:54:20.50 
+Aug 01, 2017 17:54:20.50 
+Aug 01, 2017 17:54:20.50 ###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0082,name=PBrowser::Msg_Destroy) Closed channel: cannot send/recv
+Aug 01, 2017 17:54:20.50 
+Aug 01, 2017 17:54:20.50 
+Aug 01, 2017 17:54:20.50 ###!!! [Child][MessageChannel] Error: (msgtype=0x2C0001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+Aug 01, 2017 17:54:20.50 
+Aug 01, 2017 17:54:20.50 
+Aug 01, 2017 17:54:20.50 ###!!! [Child][MessageChannel] Error: (msgtype=0x2C0001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+Aug 01, 2017 17:54:20.50 
+Aug 01, 2017 17:54:20.50 
+Aug 01, 2017 17:54:20.50 ###!!! [Child][MessageChannel] Error: (msgtype=0x2C0001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+Aug 01, 2017 17:54:20.50 
+Aug 01, 2017 17:54:20.50 
+Aug 01, 2017 17:54:20.50 ###!!! [Child][MessageChannel] Error: (msgtype=0x2C002B,name=PBrowser::Msg_SetInputContext) Closed channel: cannot send/recv
+Aug 01, 2017 17:54:20.50 
+Aug 01, 2017 17:54:20.51 
+Aug 01, 2017 17:54:20.51 ###!!! [Child][MessageChannel] Error: (msgtype=0x2C0001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+Aug 01, 2017 17:54:20.51 
+Aug 01, 2017 17:54:20.51 
+Aug 01, 2017 17:54:20.51 ###!!! [Child][MessageChannel] Error: (msgtype=0x2C0001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+Aug 01, 2017 17:54:20.51 
+Aug 01, 2017 17:54:20.51 
+Aug 01, 2017 17:54:20.51 ###!!! [Child][MessageChannel] Error: (msgtype=0x2C0001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+Aug 01, 2017 17:54:20.51 
+Aug 01, 2017 17:54:20.51 
+Aug 01, 2017 17:54:20.51 ###!!! [Child][MessageChannel] Error: (msgtype=0x2C0001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+Aug 01, 2017 17:54:20.51 
+Aug 01, 2017 17:54:20.51 
+Aug 01, 2017 17:54:20.51 ###!!! [Child][MessageChannel] Error: (msgtype=0x2C0001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+Aug 01, 2017 17:54:20.51 
+Aug 01, 2017 17:54:20.51 
+Aug 01, 2017 17:54:20.51 ###!!! [Child][MessageChannel] Error: (msgtype=0x2C0001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+Aug 01, 2017 17:54:20.51 
+Aug 01, 2017 17:54:20.51 [Child 5696] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Aug 01, 2017 17:54:20.51 
+Aug 01, 2017 17:54:20.51 ###!!! [Child][MessageChannel] Error: (msgtype=0x2C0001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+Aug 01, 2017 17:54:20.51 
+Aug 01, 2017 17:54:20.51 
+Aug 01, 2017 17:54:20.51 ###!!! [Child][MessageChannel] Error: (msgtype=0x2C0001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+Aug 01, 2017 17:54:20.51 
+Aug 01, 2017 17:54:20.51 
+Aug 01, 2017 17:54:20.51 ###!!! [Child][MessageChannel] Error: (msgtype=0x2C0001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+Aug 01, 2017 17:54:20.51 
+Aug 01, 2017 17:54:20.51 
+Aug 01, 2017 17:54:20.51 ###!!! [Child][MessageChannel] Error: (msgtype=0x2C0001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+Aug 01, 2017 17:54:20.51 
+Aug 01, 2017 17:54:20.51 
+Aug 01, 2017 17:54:20.51 ###!!! [Child][MessageChannel] Error: (msgtype=0x2C0001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+Aug 01, 2017 17:54:20.51 
+Aug 01, 2017 17:54:20.51 
+Aug 01, 2017 17:54:20.51 ###!!! [Child][MessageChannel] Error: (msgtype=0x2C0001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+Aug 01, 2017 17:54:20.51 
+Aug 01, 2017 17:54:20.51 
+Aug 01, 2017 17:54:20.51 ###!!! [Child][MessageChannel] Error: (msgtype=0x2C0001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+Aug 01, 2017 17:54:20.51 
+Aug 01, 2017 17:54:20.52 
+Aug 01, 2017 17:54:20.52 ###!!! [Child][MessageChannel] Error: (msgtype=0x2C0001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+Aug 01, 2017 17:54:20.52 
+Aug 01, 2017 17:54:20.52 
+Aug 01, 2017 17:54:20.52 ###!!! [Child][MessageChannel] Error: (msgtype=0x2C0001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+Aug 01, 2017 17:54:20.52 
+Aug 01, 2017 17:54:20.52 
+Aug 01, 2017 17:54:20.52 ###!!! [Child][MessageChannel] Error: (msgtype=0x2C0001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+Aug 01, 2017 17:54:20.52 
+Aug 01, 2017 17:54:20.52 
+Aug 01, 2017 17:54:20.52 ###!!! [Child][MessageChannel] Error: (msgtype=0x2C0001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+Aug 01, 2017 17:54:20.52 
+Aug 01, 2017 17:54:20.52 
+Aug 01, 2017 17:54:20.52 ###!!! [Child][MessageChannel] Error: (msgtype=0x2C0001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+Aug 01, 2017 17:54:20.52 
+
+Aug 22, 2017 15:14:55.47 NEW SESSION
+Aug 22, 2017 15:14:55.47 [7200:7204:0822/151455.223:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+Aug 22, 2017 17:37:35.93 [7200:7400:0822/173735.602:ERROR:ssl_client_socket_impl.cc(1072)] handshake failed; returned -1, SSL error code 1, net_error -103
+Aug 22, 2017 17:37:36.41 [7200:7400:0822/173736.366:ERROR:ssl_client_socket_impl.cc(1072)] handshake failed; returned -1, SSL error code 1, net_error -103
+Aug 22, 2017 17:37:41.61 [7200:7400:0822/173741.613:ERROR:ssl_client_socket_impl.cc(1072)] handshake failed; returned -1, SSL error code 1, net_error -103
+
+Sep 15, 2017 02:32:59.86 NEW SESSION
+Sep 15, 2017 02:32:59.87 [0915/023259.132:ERROR:file_io.cc(134)] WriteFile: The pipe is being closed. (0xE8)
+Sep 15, 2017 02:32:59.87 [0915/023259.132:ERROR:file_io.cc(134)] WriteFile: The pipe is being closed. (0xE8)
+
+Sep 22, 2017 16:23:16.28 NEW SESSION
+Sep 22, 2017 16:23:16.28 [636:1964:0922/162316.249:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+
+Oct 04, 2017 12:44:15.90 NEW SESSION
+Oct 04, 2017 12:44:15.90 [2288:1684:1004/124415.898:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+Oct 04, 2017 12:44:52.97 [2288:1684:1004/124452.972:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+Oct 04, 2017 12:45:56.26 [2288:1684:1004/124556.268:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+Oct 04, 2017 12:47:37.56 [2288:1684:1004/124737.562:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+Oct 04, 2017 12:51:10.81 [2288:1684:1004/125110.817:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+Oct 04, 2017 12:58:59.49 [2288:1684:1004/125859.492:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+Oct 04, 2017 14:00:27.80 [2288:4872:1004/140027.803:ERROR:ssl_client_socket_impl.cc(1129)] handshake failed; returned -1, SSL error code 1, net_error -101
+Oct 04, 2017 14:50:57.51 [2288:4872:1004/145057.516:ERROR:ssl_client_socket_impl.cc(1129)] handshake failed; returned -1, SSL error code 1, net_error -101
+
+Oct 13, 2017 13:16:38.21 NEW SESSION
+Oct 13, 2017 13:16:38.21 [4552:3408:1013/131638.198:ERROR:service_manager.cc(156)] Connection InterfaceProviderSpec prevented service: content_plugin from binding interface: memory_instrumentation::mojom::Coordinator exposed by: content_browser
+Oct 13, 2017 13:17:12.96 [4552:3408:1013/131712.965:ERROR:ssl_client_socket_impl.cc(1129)] handshake failed; returned -1, SSL error code 1, net_error -101
+
+Oct 15, 2017 13:47:47.22 NEW SESSION
+Oct 15, 2017 13:47:47.22 [4136:1576:1015/134747.218:ERROR:CONSOLE(145)] "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://mail.google.com') does not match the recipient window's origin ('https://www.google.co.in').", source: chrome-search://most-visited/single.js (145)

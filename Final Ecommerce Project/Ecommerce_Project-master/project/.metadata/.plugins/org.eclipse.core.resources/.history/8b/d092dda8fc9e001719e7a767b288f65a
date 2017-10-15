@@ -1,0 +1,66 @@
+/*package com.ecommerce2.ecommercebackend.model;
+
+import javax.persistence.Entity;
+import javax.persistence.FetchType;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.OneToMany;
+import javax.persistence.OneToOne;
+
+@Entity
+public class Order {
+	@Id
+	@GeneratedValue(strategy=GenerationType.AUTO)
+	private int id;
+	@OneToOne(fetch=FetchType.EAGER)
+	private User user;
+	private int totalItems;
+	private int totalPrice;
+	@OneToMany(fetch=FetchType.EAGER, mappedBy="order")
+	private OrderItem orderItems;
+
+	public OrderItem getOrderItems() {
+		return orderItems;
+	}
+
+	public void setOrderItems(OrderItem orderItems) {
+		this.orderItems = orderItems;
+	}
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public User getUser() {
+		return user;
+	}
+
+	public void setUser(User user) {
+		this.user = user;
+	}
+
+	public int getTotalItems() {
+		return totalItems;
+	}
+
+	public void setTotalItems(int totalItems) {
+		this.totalItems = totalItems;
+	}
+
+	public int getTotalPrice() {
+		return totalPrice;
+	}
+
+	public void setTotalPrice(int totalPrice) {
+		this.totalPrice = totalPrice;
+	}
+
+	 
+	
+}
+*/

@@ -1,0 +1,10 @@
+INDEX VERSION 1.3+C:\Users\Koustabh\Desktop\Ecommerce_Project-master\project\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+2800827943.index
+2413983079.index
+4225619315.index
+2993456043.index
+682643811.index
+605911697.index
+1432308721.index
+3305891146.index
+4066989918.index

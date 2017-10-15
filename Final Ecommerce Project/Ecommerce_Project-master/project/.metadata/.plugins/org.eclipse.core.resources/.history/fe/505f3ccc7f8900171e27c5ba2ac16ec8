@@ -1,0 +1,37 @@
+package com.ecommerce2.ecommercebackend.DaoImpl;
+
+import java.util.List;
+
+import org.hibernate.SessionFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.ecommerce2.ecommercebackend.Dao.AddToCartDao;
+import com.ecommerce2.ecommercebackend.model.AddtoCart;
+
+public class AddToCartDaoImpl implements AddToCartDao{
+	@Autowired
+	SessionFactory sessionFactory;
+	public boolean insert(AddtoCart cart) {
+		// TODO Auto-generated method stub
+		 try{
+			 sessionFactory.getCurrentSession().save(cart);
+			 return true;
+		 }catch(Exception e){return false;}
+	}
+
+	public boolean update(AddtoCart cart) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	public boolean delete(AddtoCart cart) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	public List<AddtoCart> getAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

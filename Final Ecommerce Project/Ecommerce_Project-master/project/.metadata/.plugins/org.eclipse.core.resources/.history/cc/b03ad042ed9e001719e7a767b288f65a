@@ -1,0 +1,40 @@
+package com.ecommerce2.ecommercebackend.DaoImpl;
+
+import java.util.List;
+
+import org.hibernate.SessionFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.ecommerce2.ecommercebackend.Dao.OrderItemsDao;
+import com.ecommerce2.ecommercebackend.model.OrderedItems;
+
+public class OrderItemDaoImpl implements OrderItemsDao{
+	@Autowired
+	SessionFactory sessionFactory;
+
+	public boolean insert(OrderedItems orderItem) {
+		// TODO Auto-generated method stub
+		try{
+			sessionFactory.getCurrentSession().save(orderItem);
+			return true;
+		}catch(Exception e){
+			return false;
+		}
+	}
+
+	public boolean update(OrderedItems orderItem) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	public boolean delete(OrderedItems orderItem) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	public List<OrderedItems> getAllByOrderedId(int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

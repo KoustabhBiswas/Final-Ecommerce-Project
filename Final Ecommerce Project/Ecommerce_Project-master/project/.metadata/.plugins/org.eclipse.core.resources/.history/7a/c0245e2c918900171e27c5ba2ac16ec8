@@ -1,0 +1,47 @@
+package com.ecommerce2.ecommercebackend.TestCase;
+
+import org.junit.Assert;
+import org.junit.BeforeClass;
+import org.junit.Test;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+import com.ecommerce2.ecommercebackend.Dao.AddToCartDao;
+import com.ecommerce2.ecommercebackend.Dao.CartDao;
+import com.ecommerce2.ecommercebackend.Dao.UserDao;
+import com.ecommerce2.ecommercebackend.model.Cart;
+import com.ecommerce2.ecommercebackend.model.CartItem;
+import com.ecommerce2.ecommercebackend.model.User;
+
+public class AddToCartTestCase {
+	@Autowired
+	static AnnotationConfigApplicationContext context;
+	@Autowired
+	static CartDao cartdao;
+	@Autowired
+	static UserDao userdao;
+	@Autowired
+	static AddToCartDao cart1;
+
+	@BeforeClass
+	public static void init() {
+		context = new AnnotationConfigApplicationContext();
+		context.scan("com");
+		context.refresh();
+		cartdao = (CartDao) context.getBean("cartdao");
+		userdao = (UserDao) context.getBean("userdao");
+	}
+	@Test
+	public void getcart(){
+		User user = userdao.getById(162);
+		Cart cart = user.getCart();
+		CartItem cartItem = new CartItem();
+		cartItem.setOrderQty(2);
+		cartItem.setTotalPrice(1200);
+		cartItem.setCart(cart);
+		Assert.assertEquals(true, cart1.insert(cartItem));
+		 
+		
+		
+	}
+}

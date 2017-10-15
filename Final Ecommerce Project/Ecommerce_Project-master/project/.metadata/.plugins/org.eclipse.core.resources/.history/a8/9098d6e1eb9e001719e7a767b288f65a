@@ -1,0 +1,34 @@
+package com.ecommerce2.ecommercebackend.TestCase;
+
+import org.junit.BeforeClass;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+import com.ecommerce2.ecommercebackend.Dao.CartDao;
+import com.ecommerce2.ecommercebackend.Dao.OrderDao;
+import com.ecommerce2.ecommercebackend.Dao.OrderItemsDao;
+import com.ecommerce2.ecommercebackend.Dao.UserDao;
+
+public class OrderTestCase {
+	@Autowired
+	static AnnotationConfigApplicationContext context;
+	@Autowired
+	static CartDao cartdao;
+	@Autowired
+	static UserDao userdao;
+	@Autowired
+	static OrderDao orderDao;
+	@Autowired
+	static OrderItemsDao orderitemDao;
+	
+	@BeforeClass
+	public static void init() {
+		context = new AnnotationConfigApplicationContext();
+		context.scan("com");
+		context.refresh();
+		cartdao = (CartDao) context.getBean("cartdao");
+		userdao = (UserDao) context.getBean("userdao");
+		orderDao = (OrderDao) context.getBean("orderDao");
+		orderitemDao= (OrderItemsDao) context.getBean("orderitemDao");
+	}
+}

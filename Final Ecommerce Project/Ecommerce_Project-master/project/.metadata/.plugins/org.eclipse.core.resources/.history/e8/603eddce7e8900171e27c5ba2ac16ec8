@@ -1,0 +1,19 @@
+package com.ecommerce2.ecommercebackend.model;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+
+@Entity
+public class AddtoCart {
+	@Id
+	@GeneratedValue(strategy=GenerationType.AUTO)
+	private int id;
+	private Product product;
+	private int orderQty;
+	private float totalPrice;
+	private Cart cart;
+	
+
+}

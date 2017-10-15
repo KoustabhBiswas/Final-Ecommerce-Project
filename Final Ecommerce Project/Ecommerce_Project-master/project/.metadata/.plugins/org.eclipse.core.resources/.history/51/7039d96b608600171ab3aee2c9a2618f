@@ -1,0 +1,14 @@
+package com.ecommerce2.ecommercebackend.Dao;
+
+import java.util.List;
+
+import com.ecommerce2.ecommercebackend.model.Cart;
+import com.ecommerce2.ecommercebackend.model.Product;
+
+public interface CartDao {
+	boolean insertItem(Cart cart);
+	boolean deleteItem(Cart cart);
+	Product getbyId(int cartId);
+	List<Product> getAll();
+
+}

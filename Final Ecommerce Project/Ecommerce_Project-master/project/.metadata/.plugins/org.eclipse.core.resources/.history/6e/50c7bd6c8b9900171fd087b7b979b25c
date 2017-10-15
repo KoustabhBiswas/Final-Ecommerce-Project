@@ -1,0 +1,75 @@
+/*package com.ecommerce1;
+
+ 
+import java.security.Principal;
+
+import javax.servlet.http.HttpServletRequest;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.ModelMap;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.servlet.ModelAndView;
+
+import com.ecommerce2.ecommercebackend.Dao.CartDao;
+import com.ecommerce2.ecommercebackend.Dao.CartItemDao;
+import com.ecommerce2.ecommercebackend.Dao.ProductDao;
+import com.ecommerce2.ecommercebackend.Dao.UserDao;
+import com.ecommerce2.ecommercebackend.model.Cart;
+import com.ecommerce2.ecommercebackend.model.CartItem;
+import com.ecommerce2.ecommercebackend.model.Product;
+import com.ecommerce2.ecommercebackend.model.User;
+
+@Controller
+@RequestMapping("/user")
+public class UserController {
+	@Autowired
+	UserDao userDao;
+	@Autowired
+	CartDao cartDao;
+	@Autowired
+	ProductDao productDao;
+	@Autowired
+	CartItemDao cartItemDao;
+	@Autowired
+	HttpServletRequest request;
+@RequestMapping("/login1")
+public ModelAndView login(){
+	ModelAndView model = new ModelAndView("login");
+	return model;
+}
+
+@RequestMapping("/addCart/{id}")
+public String addCart(@PathVariable("id") int id,Principal principal,ModelMap model){
+	principal = request.getUserPrincipal();
+	 if(principal != null){
+		
+		User user = userDao.getByUserName(principal.getName());
+		Cart cart = user.getCart();
+		CartItem cartItem = new CartItem();
+		Product product = productDao.getbyId(id);
+		int flag =0;
+		for(CartItem cartitem : cart.getCartItem()){
+			 cartItem = cartitem ;
+			if(cartItem.getProduct().getProductId() == product.getProductId()){
+				flag = 0;
+				break;
+			}
+		}
+		if(flag==0){
+			cartItem.setOrderQty(cartItem.getOrderQty()+1);
+			cartItem.setTotalPrice(cartItem.getTotalPrice()+product.getProduct_price());
+			cartItemDao.update(cartItem);
+			cart.setTotalItems(cart.getTotalItems()+1);
+			cart.setTotalPrice(cart.getTotalPrice()+product.getProduct_price());
+			cartDao.updateItem(cart);
+			
+			
+		}
+	 }
+		return "redirect:/";
+	 
+}
+}
+*/

@@ -1,0 +1,31 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1" isELIgnored="false"%>
+    <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<div class="col-md-12" style="margin-top:2%;  background-color:#F8F8F8;">
+			   		 <div class="col-md-12" style="margin-top:2%;  background-color:#F8F8F8;">
+			   		<div class="col-md-12">
+			   				<div  style="float:left; "><a href="ecommerce1/samsung/${i.productId}"><img src="<c:url value="/resources/images/product/${product.product_image}" /> " width="300px" ></a></div>
+			   				<div class="productDiv">
+					   		    
+					   		     <div style="float:rigth; color:red; font-size: 30px;"><p>${product.company_name} ${product.product_name}</p></div>
+					   		 <div style="float:rigth; color:blue; font-size: 25px;"><p>Price : ${product.product_price} </p></div>
+					   		  <div style="float:rigth; color:blue; font-size: 25px;"><p>Description : ${product.product_description} </p></div>
+					   		</div>  
+			   		  <div class="btnDiv">
+			   		  			 <a href="addCart" class="btn btn-info" style="text-decoration:none;">Add To Cart</a> <br/>
+			   		   			 <a href="#"  class="btn btn-info" style="margin-top:10%;">Buy Now</a>
+			   		   </div>
+			   		   
+			   		 </div> 
+			   </div>
+			   </div>
+
+</body>
+</html>

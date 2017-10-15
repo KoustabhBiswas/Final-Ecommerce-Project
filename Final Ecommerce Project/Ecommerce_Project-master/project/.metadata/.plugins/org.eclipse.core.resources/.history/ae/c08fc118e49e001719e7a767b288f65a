@@ -1,0 +1,20 @@
+package com.ecommerce2.ecommercebackend.model;
+
+import javax.persistence.FetchType;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.ManyToOne;
+import javax.persistence.OneToOne;
+
+public class OrderedItems {
+	@Id
+	@GeneratedValue(strategy=GenerationType.AUTO)
+	private int id;
+	@OneToOne(fetch=FetchType.EAGER)
+	private Product product;
+	private int orderQty;
+	private float totalPrice;
+	@ManyToOne
+	private Order order;
+}

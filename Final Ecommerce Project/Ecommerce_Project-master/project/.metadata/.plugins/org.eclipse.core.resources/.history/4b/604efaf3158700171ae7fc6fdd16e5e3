@@ -1,0 +1,43 @@
+<style>
+nav {
+	background-color: #1b6d85;
+}
+</style>
+
+<div class="row" style="border-bottom-style: none;">
+	<nav class="navbar navbar-inverse" style="background-color: green;">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="home.html">ShopMobiles</a>
+			</div>
+			<ul class="nav navbar-nav">
+
+				<li class="dropdown"><a class="dropdown-toggle"
+					data-toggle="dropdown" href="#">Select Product <span
+						class="caret"></span></a>
+					<ul class="dropdown-menu">
+						<li><a href="#">Samsung</a></li>
+						<li><a href="#">Nokia</a></li>
+						<li><a href="#">HTC</a></li>
+					</ul></li>
+				<li><a href="#"><span
+						class="glyphicon glyphicon-shopping-cart"></span>Cart</a></li>
+
+			</ul>
+			<ul class="nav navbar-nav navbar-right">
+				<li class="dropdown"><a class="dropdown-toggle"
+					data-toggle="dropdown" href="#">Admin <span
+						class="caret"></span></a>
+					<ul class="dropdown-menu">
+						<li><a href="admin/product">Product</a></li>
+						<li><a href="admin/supplier">Supplier</a></li>
+						 
+					</ul></li>
+				<li><a href="login1">Sign In<span
+						class="glyphicon glyphicon-log-in"></span></a></li>
+				<li><a href="registration.html">Register<span
+						class="glyphicon glyphicon-registration-mark"></span></a></li>
+			</ul>
+		</div>
+	</nav>
+</div>

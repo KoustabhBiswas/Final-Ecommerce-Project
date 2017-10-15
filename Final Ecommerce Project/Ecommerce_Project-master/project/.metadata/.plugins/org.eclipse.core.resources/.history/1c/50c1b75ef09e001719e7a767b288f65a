@@ -1,0 +1,13 @@
+package com.ecommerce2.ecommercebackend.Dao;
+
+import java.util.List;
+
+import com.ecommerce2.ecommercebackend.model.OrderedItems;
+
+public interface OrderItemsDao {
+	boolean insert(OrderedItems orderItem);
+	boolean update(OrderedItems orderItem);
+	boolean delete(OrderedItems orderItem);
+	List<OrderedItems> getAllByOrderedId(int id);
+
+}

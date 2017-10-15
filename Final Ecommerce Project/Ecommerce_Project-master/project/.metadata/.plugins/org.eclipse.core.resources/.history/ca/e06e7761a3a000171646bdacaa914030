@@ -1,0 +1,13 @@
+package com.ecommerce1;
+
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.ControllerAdvice;
+
+@ControllerAdvice
+public class GlobalController {
+	public String Con(Model model){
+		model.addAttribute("name", "Username");
+		return model;
+	}
+
+}

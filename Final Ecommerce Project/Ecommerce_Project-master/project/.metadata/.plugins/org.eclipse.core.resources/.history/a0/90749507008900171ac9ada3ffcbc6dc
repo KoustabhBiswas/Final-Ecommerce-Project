@@ -1,0 +1,26 @@
+package com.ecommerce1;
+
+ 
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.servlet.ModelAndView;
+
+ 
+
+@Controller
+public class HomeController {
+	 
+	@RequestMapping("/")
+	public ModelAndView user(){
+		ModelAndView mv = new ModelAndView("home");
+		 //mv.addObject("msg1", "HELLO");
+		return mv; 
+		 
+	}
+
+	 @RequestMapping("/samsung")
+	 public ModelAndView productView(){
+		 ModelAndView model = new ModelAndView("product");
+		 return model;
+	 }
+}

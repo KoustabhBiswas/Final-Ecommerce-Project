@@ -1,0 +1,38 @@
+package com.ecommerce2.ecommercebackend.TestCase;
+
+import org.junit.Assert;
+import org.junit.BeforeClass;
+import org.junit.Test;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+import com.ecommerce2.ecommercebackend.Dao.AddressDao;
+import com.ecommerce2.ecommercebackend.Dao.UserDao;
+import com.ecommerce2.ecommercebackend.model.Address;
+import com.ecommerce2.ecommercebackend.model.User;
+
+public class AddressTestCase {
+	@Autowired
+	static AnnotationConfigApplicationContext context;
+	@Autowired
+	static AddressDao addressDao;
+	@Autowired
+	static UserDao userdao;
+	@BeforeClass
+	public static void init() {
+		context = new AnnotationConfigApplicationContext();
+		context.scan("com");
+		context.refresh();
+		addressDao = (AddressDao) context.getBean("addressdao");
+		userdao = (UserDao) context.getBean("userdao");
+	}
+	@Test
+	public void insert(){
+		Address address =new Address();
+		User user = userdao.getById(61);
+		address.setShippingAddress("21/1, Sahid Sunil Sen Sarani");
+		address.setUser(user);
+		Assert.assertEquals(true, addressDao.insertAddress(address));
+	}
+
+}

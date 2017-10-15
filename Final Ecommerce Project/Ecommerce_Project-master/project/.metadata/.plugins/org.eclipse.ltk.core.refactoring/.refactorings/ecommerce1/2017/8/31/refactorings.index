@@ -1,0 +1,10 @@
+1501576700674	Move 'footer.jsp' to 'shared'
+1501576704823	Move 'navbar.jsp' to 'shared'
+1501580659339	Move 'images' to 'webapp'
+1501582261374	Move 'images' to 'assets'
+1501586883406	Move 'assets' to 'resources'
+1501601820527	Move 'images' to 'resources'
+1501603480970	Move 'resources' to 'webapp'
+1501667700621	Delete element
+1501670847383	Rename type 'adminProduct'
+1501670872366	Rename type 'hello1'
